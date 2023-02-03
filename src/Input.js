@@ -12,7 +12,7 @@ function Input({ addPost }){
         const title = event.target.value;
         if(event.key === 'Enter' && title){
         addPost(title);
-        setInput('');
+        setInput('')
         } 
     }
 
